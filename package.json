@@ -1,0 +1,28 @@
+{
+  "name": "@lucacelli/json-ld-schema-org-structured-data-validator-cli",
+  "version": "2.0.0",
+  "description": "Parse, validate, and generate Schema.org JSON-LD structured data (Organization, Product, FAQPage, JobPosting, SoftwareApplication) across any URL list.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "json-ld-schema-org-structured-data-validator-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --demo"
+  },
+  "keywords": [
+    "json-ld",
+    "schema-org",
+    "structured-data",
+    "technical-seo",
+    "rich-snippets",
+    "seo-tools",
+    "semantic-web",
+    "opengraph",
+    "nodejs",
+    "web-diagnostics"
+  ],
+  "author": "Lucacelli Data Engineering",
+  "license": "MIT"
+}
